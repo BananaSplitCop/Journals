@@ -1,3 +1,15 @@
+1.this command shows the status of the bluetooth device
+2. if the bluetooth doesnt work then you can run this command which will get the necssary info to use the bluetooth device
+3.hcitool dev checks the device running on your pc
+4.this command is like a name for the device to go by
+5.
+6.this command  just list everybody in the vincinty of the bluetooth that the device could connect to
+
+
+
+
+
+
 1.This command displays a bunch of commands with descriptions similar to the 'man' command
 2.ewf is a file type and the reason why we typed ewf in the command is to change the file type to the ewf type
 3.this command runs a long column in which every line starts with +++ r/r,++++ r/r,++ d/d
