@@ -1,16 +1,17 @@
 1.This command displays a bunch of commands with descriptions similar to the 'man' command
 2.ewf is a file type and the reason why we typed ewf in the command is to change the file type to the ewf type
-3.this command runs a long column in which every line starts with +++ r/r
+3.this command runs a long column in which every line starts with +++ r/r,++++ r/r,++ d/d
 4.a body file is an intermediate file in a timeline of file activity and fls is a tool to output data info.
 5.this command runs a long list of things that has WINDOWS/ServicePackFiles until the last few lines and i think it verfies the integrity of the cache
-6.For me this command didnt run anything
+6.this command transfers all of the info from the nps-2008-jean.E01 to bodyfile.txt
 7.the contents of the bodyfile is the same stuff that ran from the last command becuase the fls outputed the same stuff.
 8.-r with fls recurses directory entries
 9.-m with fls displays output in mactime
-10.the mactime command doesnt do anything on my computer
+10.this command shows when the file was opened
 11.this command just shows a bunch of information like config and Settings
 12.the command runs an output whcih has +++ r/r at the beginning and has excel4.xls usally at the end
 13.this command is a variation that displays the files output in mactime and recurses that same directories entries
 14.the icat command just reads the file in mnt and at the end has Root Entry Workbook and Summary Info
 15.this command opens and reads the file in the mnt folder and exports it to an exl file
 16.the difference between these 2 commands is that the first one just reads the file and the 2nd one opens and exports the file
+
