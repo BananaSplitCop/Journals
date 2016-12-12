@@ -1,26 +1,7 @@
-1.i see the files nps-2008-jean.dd and nps-2008-jean.info
-2.xmount was used in this case becuase of how you are mounting the file nps-2008-jean.E from its orginal file to /mnt/ewf
-3.the command that you would use would be xmount file name >xmount  file name
-4.nps-2008-jean.dd and nps-2008-jean.info
-5.nps-2008-jean.info is not a disk image it shows the info of the nps-2008-jean.dd file
-6.this command lists the raw files in the nps-2008-jean.dd file
-7.the reason why we changed it is to see everything in the file instead of the more pretty picture
-8.a body file is an intermediate file in a timeline of file activity and fls is a tool to output data info.
-9.mactime shows when the file was created and when it was opened
-mac-robber collects data about allocated files in a mounted filesystem
-10.the parts of the mactime command are the date/time,size,activity,permissions,user ID,group ID,inode,and the File name
-11.the m means modified or Written,the a means if it was accessed, the c means if the file was changed or not, the b means it a filesystem was created or not
-12.Tue Jun 10 1997 19:37:00     3072 m..b r/rrwxrwxrwx 0        0        16358-128-3 /Program Files/Microsoft Office/Office/MSO7FTP.EXE
-                             3072 m..b r/rrwxrwxrwx 0        0        16360-128-3 /Program Files/Microsoft Office/Office/MSO7FTPS.EXE
-13.jean does alot of clipart amd excel documents on her computer
-14.this command shows excel files in the nps-2008-jean.dd
-15.this command made the example.xls file in the mnt/ewf directory
-16.the 32712 is the entry or the number when the file was created or opened and we can use it to see when the file was used and by who
-18.prefetch files are good things for investigators becuase it shows if anything was used to like maybe delete a file,LNK files can have mactime in them showing when the file was opened and can show everything about a file
-19.You see LNK files all the time and prefetch only when a file has been deleted
-20.They tell us if they are up to anything shady
-
-
-
-Mon Apr 15 1996 11:38:30    59696 m..b r/rrwxrwxrwx 0        0        17262-128-3 /WINDOWS/Fonts/WINGDNG2.TTF
+Use the xxd filename.img |grep JFIF and find the 1st number that comes up on the left after you rn th$
+Then do xxd filename.img |grep ffd9|grep -v "0000 0000" and find the first number in the that line wh$
+After that run the command echo "ibase "first # - 2nd #"|bc
+Then take that number and put it into the skip place in this command
+dd if=Filename.img skip=final # bs=1 count=33616 of=filename.img
+Now you have a new recovered disk image
 
